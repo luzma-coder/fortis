@@ -1,0 +1,16 @@
+{
+  "name": "spa-fortis",
+  "version": "1.0.0",
+  "description": "Plataforma lúdica para aprender ciencias",
+  "license": "ISC",
+  "author": "Luz Marina Apaza Caceres",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite app/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

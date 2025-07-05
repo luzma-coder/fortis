@@ -1,0 +1,126 @@
+@import url('pally.css');
+
+:root{
+    /*Colores =========================================================================*/
+    /*Primary color ----------------------------------------------*/
+    --color-primary-950: #04334D;
+    --color-primary-900: #065174;
+    --color-primary-800: #065174;
+    --color-primary-700: #0073AB;
+    --color-primary-600: #0091D4;
+    --color-primary-500: #00BBFF;/*color base*/
+    --color-primary-400: #2CCBFF;
+    --color-primary-300: #75DCFF;
+    --color-primary-200: #B6EAFF;
+    --color-primary-100: #DEF3FF;
+    --color-primary-50: #EFFAFF;
+
+    /*Secondary color ----------------------------------------------*/
+    --color-secondary-950: #51061A;
+    --color-secondary-900: #841734;
+    --color-secondary-800: #9F153A;
+    --color-secondary-700: #C01646;
+    --color-secondary-600: #DD255E;
+    --color-secondary-500: #EF528A;/*color base*/
+    --color-secondary-400: #F670A4;
+    --color-secondary-300: #FAA7C9;
+    --color-secondary-200: #FCCEE2;
+    --color-secondary-100: #FCE7F0;
+    --color-secondary-50: #FDF2F6;
+
+    /*Tertiary color ----------------------------------------------*/
+    --color-tertiary-950: #432205;
+    --color-tertiary-900: #724211;
+    --color-tertiary-800: #86500D;
+    --color-tertiary-700: #A26606;
+    --color-tertiary-600: #CC9102;
+    --color-tertiary-500: #ECBA06;/*color base*/
+    --color-tertiary-400: #FCD20A;
+    --color-tertiary-300: #FFE645;
+    --color-tertiary-200: #FFF489;
+    --color-tertiary-100: #FFFBC2;
+    --color-tertiary-50: #FEFDE8;
+
+    /*Neutral color ----------------------------------------------*/
+    --color-neutral-950: #0E1618;
+    --color-neutral-900: #131F23;
+    --color-neutral-800: #223338;
+    --color-neutral-700: #2F454C;
+    --color-neutral-600: #3D5860;
+    --color-neutral-500: #476670;/*color base*/
+    --color-neutral-400: #627B83;
+    --color-neutral-300: #7C9198;
+    --color-neutral-200: #A2B0B5;
+    --color-neutral-100: #C7CFD2;
+    --color-neutral-50: #E9EBEC;
+
+    /*State color ----------------------------------------------*/
+    --color-danger-300: #CD0000;
+    --color-danger-200: #F60303;
+    --color-danger-100: #FF6464;
+
+    --color-success-300: #61A30D;
+    --color-success-200: #80CC16;
+    --color-success-100: #A9DC60;
+
+    /*Tipografía =========================================================================*/
+    /*Font family ----------------------------------------------*/
+    --font-family-regular: 'Pally-Regular', sans-serif;
+    --font-family-medium: 'Pally-Medium', sans-serif;
+    --font-family-bold: 'Pally-Bold', sans-serif;
+    
+    /*Font size ----------------------------------------------*/
+    --font-size-xxxl: 90px;
+    --font-size-xxl: 70px;
+    --font-size-xl: 50px;
+    --font-size-lg: 30px;
+    --font-size-md: 28px;
+    --font-size-sm: 18px;
+    --font-size-xsm: 16px;
+    --font-size-xs: 14px;
+    --font-size-xxs: 12px;
+
+    /*Espaciado =========================================================================*/
+    --spacing-xxxl: 64px;
+    --spacing-xxl: 40px;
+    --spacing-xl: 36px;
+    --spacing-lg: 32px;
+    --spacing-md: 20px;
+    --spacing-sm: 16px;
+    --spacing-xs: 8px;
+    --spacing-xxs: 0px;
+
+    /*Shadow =========================================================================*/
+    --shadow-button-blue: 0px 4px 2px rgba(0, 115, 171, 0.98);
+    --shadow-button-clear: 0px 4px 2px rgba(182, 234, 255, 0.98);
+    --shadow-button-black: 0px 4px 2px rgba(34, 51, 58, 0.1);
+    --shadow-button-grey: 0px 4px 2px rgb(34, 51, 56);
+    --shadow-button-pink: 0px 4px 2px rgba(192, 22, 70, 0.98);
+    --shadow-button-yellow: 0px 4px 2px rgba(204, 145, 2, 0.98);
+    --shadow-button-danger: 0px 4px 2px rgba(151, 10, 10, 0.98);
+    --shadow-button-success: 0px 4px 2px rgba(77, 131, 9, 0.98);
+
+    /*Border =========================================================================*/
+    /*Border-line ----------------------------------------------*/
+    --border-line-500:10px;
+    --border-line-400: 8px;
+    --border-line-300: 3px;
+    --border-line-200: 2px;
+    --border-line-100: 1px;
+
+    /*Border radius ----------------------------------------------*/
+    --border-radius-xl: 9999px;
+    --border-radius-lg: 60px;
+    --border-radius-md: 40px;
+    --border-radius-sm: 17px;
+    --border-radius-xs: 10px;
+
+    /*Size =========================================================================*/
+    --size-xxl: 70px;
+    --size-xl: 50px;
+    --size-lg: 42px;
+    --size-md: 32px;
+    --size-sm: 24px;
+    --size-xs: 16px;
+    --size-xxs: 10px;
+}
