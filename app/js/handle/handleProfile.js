@@ -37,6 +37,51 @@ const loadSection = (section) => {
   sectionContent.innerHTML = html;
 }
 
+const enableForm = () => {
+  const form = document.getElementById('profileForm');
+  const saveBtn = document.getElementById('button-save');
+
+  // Escuchar cambios en todos los campos del formulario
+  const formFields = form.querySelectorAll('input');
+
+  formFields.forEach(field=> {
+    field.addEventListener("input", () => {
+      saveBtn.disabled = false;
+      saveBtn.classList.replace('button-primary-disabled','button-primary');
+    });
+  });
+
+  // Actualiza los datos 
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    saveBtn.disabled = true;
+    saveBtn.classList.replace('button-primary','button-primary-disabled');
+
+    alert("Datos actualizados.");
+    const formData = new FormData(form);
+    console.log('data ', Object.fromEntries(formData.entries()));
+  });
+}
+
+const togglePasswordField = () => {
+  const curPasswordField = document.getElementById("currentPassword");
+  const newPasswordField = document.getElementById("newPassword");
+  const toggleCPasswordBtn = document.getElementById("toggle-cpassword");
+  const toggleNPasswordBtn = document.getElementById("toggle-npassword");
+
+  toggleCPasswordBtn.addEventListener("click", () => {
+    const type = curPasswordField.getAttribute("type") === "password" ? "text" : "password";
+    curPasswordField.setAttribute("type", type);
+    toggleCPasswordBtn.classList.toggle('show');
+ });
+
+  toggleNPasswordBtn.addEventListener("click", () => {
+    const type = newPasswordField.getAttribute("type") === "password" ? "text" : "password";
+    newPasswordField.setAttribute("type", type);
+    toggleNPasswordBtn.classList.toggle('show');
+  });
+}
+
 // Muestra el menu interior o cuadro con links de Perfil y esconde el cuadro desafios
 // También ilumina la opcion elegida de este cuadro 'Cuenta'
 // Escucha si elimina algún curso
@@ -81,10 +126,10 @@ export const showCardMenu = () => {
       const course = button.dataset.course;
       const nombre = button.dataset.nombre;
       if (nombre == 'cuenta') {
-        alert('Eliminar Perfil');
+        alert('Link para eliminar Perfil');
       } else {
          if (course === '1') {
-          alert('Curso principal, no se puede eliminar');
+          alert('Curso principal, no se puede eliminar.');
          } else {
           button.closest('li').remove();
           updateItem('arrCourses',course,{activo:false});
@@ -93,4 +138,6 @@ export const showCardMenu = () => {
     }
   });
 
+ enableForm();
+ togglePasswordField();
 };

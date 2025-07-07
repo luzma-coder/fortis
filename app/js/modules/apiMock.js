@@ -1,4 +1,10 @@
 export default {
+  "user": {
+    "name": 'María',
+    "userName": 'maria1344',
+    "email": 'maria123@gmail.com',
+    "currentPass": 'Seguridad'
+  },
   "unidad": [
     {
     "id": "1",

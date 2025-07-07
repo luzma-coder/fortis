@@ -56,6 +56,14 @@ const updateActivitie = (status,activitie) => {
   }
 }
 
+const activeNavProfile = (route) => {
+  const routes = document.querySelectorAll('[data-route]');
+  Array.from(routes).forEach(el => el.classList.replace('button-menu-active','button-menu'));
+
+  const currentLink = Array.from(routes).find(el => el.dataset.route === route);
+  currentLink.classList.replace('button-menu','button-menu-active');
+}
+
 export const navigateTo = (route,status,activitie) => {
   switch (route) {
     case 'learn':
@@ -63,6 +71,8 @@ export const navigateTo = (route,status,activitie) => {
       updateActivitie(status);
       setContent(2, Learn.view());
       setContent(3, RightSidebar.view());
+        activeNavProfile(route);
+
       setWave('#button-section');
       coursesMenu();
       break;
@@ -70,6 +80,8 @@ export const navigateTo = (route,status,activitie) => {
       showNav(true);
       setContent(2, Profile.view());
       setContent(3, RightSidebar.view());
+        activeNavProfile(route);
+
       coursesMenu();
       showCardMenu();
       break;

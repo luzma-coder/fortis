@@ -18,6 +18,11 @@ const validateAnswer = () => {
     btnBack.classList.add('hidden');
     feedback.classList.remove('hidden');
 
+    btnSeeSolution.addEventListener('click',() => {
+      const solutionView = document.querySelector('#solution-view');
+      solutionView.classList.remove('hidden');
+    });
+
     if (selectedOption === correctAnswer) {
         feedback.className = 'feedback correct';
         feedback.innerHTML = `

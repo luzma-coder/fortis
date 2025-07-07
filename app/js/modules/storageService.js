@@ -87,7 +87,6 @@ export const setCourses = () => {
   saveItems('arrCourses', dataBD.curso);
 };
 
-
 //************** leer datos de la unidad  */
 export const getDataUnity = () => {
   const dataUnity = JSON.parse(localStorage.getItem("dataUnity"));
@@ -104,4 +103,10 @@ export const getColor = () => {
 export const getCurrentActivitie = () => {
   const currentAct = localStorage.getItem('currentActivitie') * 1;
   return currentAct ? currentAct : 0;
+};
+
+//************** leer datos del usuario  */
+export const getUser = () => {
+  const userData = dataBD.user;
+  return userData ? userData : {};
 };

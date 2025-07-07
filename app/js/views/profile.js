@@ -1,10 +1,7 @@
-const userData = {
-  name: 'María',
-  userName: 'maria1344',
-  email: 'maria123@gmail.com',
-  currentPass: 'Segur1dad'
-};
+import { getUser } from '../modules/storageService';
+
 export const view = () => {
+  const userData = getUser();
   return `
     <div class="title title-content"><h4>Perfil</h4></div>
     <main id="tarea">
@@ -33,16 +30,17 @@ export const view = () => {
 
         <label for="currentPassword">Contraseña actual</label>
         <div class="password-wrapper">
-          <input type="password" id="currentPassword" name="currentPassword" value=${userData.currentPass} required />
-          <button type="button" class="toggle-password hide" onclick="togglePassword()" aria-label="Mostrar contraseña"></button>
+          <input type="password" id="currentPassword" name="currentPassword" required />
+          <button type="button" id="toggle-cpassword" class="toggle-password hide" aria-label="Mostrar contraseña"></button>
         </div>
 
         <label for="newPassword">Nueva contraseña</label>
         <div class="password-wrapper">
-          <input type="text" id="newPassword" name="newPassword" required />
-          <button type="button" class="toggle-password show" onclick="togglePassword()" aria-label="Mostrar contraseña"></button>
-        </div>  
-        <button type="submit" class="button-primary w300 text-ng my4 animation-dissolve">Guardar cambios</button>
+          <input type="password" id="newPassword" name="newPassword" />
+          <button type="button" id="toggle-npassword"class="toggle-password hide" aria-label="Mostrar contraseña"></button>
+        </div>
+
+        <button id="button-save" type="submit" class="button-primary-disabled w300 text-ng my4 animation-dissolve" disabled>Guardar cambios</button>
       </form>
       <button type="button" class="fs-md text-button my4" data-nombre='cuenta'>Eliminar mi cuenta</button>
     </main>

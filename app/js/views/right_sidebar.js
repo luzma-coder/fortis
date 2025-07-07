@@ -32,7 +32,7 @@ export const view = () => {
             </ul>
         </section>
         <div class="card align-center">
-            <div class="flex">
+            <div class="flex-r">
                 <img class="icon_lg" src="./assets/icon/heart-2.svg">
             <h4 class="title">Actualizar a pro</h4>
             </div>

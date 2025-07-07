@@ -160,8 +160,10 @@ nav a {
 .subtitle{
   color: var(--color-neutral-50);
 }
-
 .flex{
+  display: flex;
+}
+.flex-r{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -172,6 +174,11 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
+}
+
+.fgrow-1{
+  flex-grow: 1;
+  width: 50%;
 }
 .card-base{
   align-self: center;
@@ -520,11 +527,11 @@ input:focus {
   cursor: pointer;
 }
 
-.toggle-password.show {
+.toggle-password.hide{
   background-image: url('/assets/icon/eye-hide-on.svg');
 }
 
-.toggle-password.hide {
+.toggle-password.show {
   background-image: url('/assets/icon/eye-hide-off.svg');
 }
 
