@@ -1,10 +1,19 @@
 export default {
-  "user": {
+  "user":
+    {
     "name": 'María',
     "userName": 'maria1344',
     "email": 'maria123@gmail.com',
     "currentPass": 'Seguridad'
-  },
+    },
+  "user2": [
+    {
+    "name": 'María',
+    "userName": 'maria1344',
+    "email": 'maria123@gmail.com',
+    "currentPass": 'Seguridad'
+    },
+  ],
   "unidad": [
     {
     "id": "1",
