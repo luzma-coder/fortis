@@ -10,7 +10,7 @@ export const view = () => {
             <div class="progress-20"></div>
           </div>
           <div class="info_heart_questions">
-              <img class="icon_sm" src="/assets/icon/heart.svg">
+              <img class="icon_sm" src="./assets/icon/heart.svg">
               <p class="text-ng">09</p>
           </div>
         </header>
