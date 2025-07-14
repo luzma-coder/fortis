@@ -108,9 +108,5 @@ export const getCurrentActivitie = () => {
 //************** leer datos del usuario  */
 export const getUser = () => {
   const userData = dataBD.user;
-    const userData2 = dataBD.user2[0];
-  console.log(userData);
-    console.log(userData2);
-
   return userData ? userData : {};
 };
