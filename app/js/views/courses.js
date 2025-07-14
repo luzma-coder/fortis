@@ -10,7 +10,7 @@ export function view() {
             <div class="border-courses border-neutral ${!course.activo ? 'cpointer' : ''}" 
             data-course="${course.id}">
                 <button class="check-btn ${!course.activo ? 'noShow' : ''}"></button>
-                <img class="img-lg" src="./../assets/img/${course.image}">
+                <img class="img-lg" src="./assets/img/${course.image}">
                 <h4>${course.nombre}</h4>
             </div>`
         ).join('')}
