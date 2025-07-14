@@ -27,7 +27,6 @@ nav a {
   content: '';
   display: inline-block;
   height: 42px;
-  margin-right: 6px;
   background-size: cover;
   width: var(--size-lg);
 }

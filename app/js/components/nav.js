@@ -3,14 +3,14 @@ export const createNav = (navigate) => {
   nav.id = 'main-nav';
   nav.innerHTML = `
     <h1 class="logo">Fortis</h1>
-    <a href="#" data-route="learn" class="button-menu-active animation-dissolve nav-icon">
+    <a href="#" data-route="learn" class="button-menu mnu-active animation-dissolve nav-icon">
       Aprender
     </a>
-    <button class="button-menu animation-dissolve">
+    <button class="button-menu mnu-noactive animation-dissolve">
         <img class="icon_lg" src="./assets/icon/ranking.svg"> 
         <h4>Ranking</h4>
     </button>
-    <a href="#" data-route="profile" class="button-menu animation-dissolve nav-icon">
+    <a href="#" data-route="profile" class="button-menu mnu-noactive animation-dissolve nav-icon">
       Perfil
     </a>
   `;

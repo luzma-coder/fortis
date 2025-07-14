@@ -58,10 +58,10 @@ const updateActivitie = (status,activitie) => {
 
 const activeNavProfile = (route) => {
   const routes = document.querySelectorAll('[data-route]');
-  Array.from(routes).forEach(el => el.classList.replace('button-menu-active','button-menu'));
+  Array.from(routes).forEach(el => el.classList.replace('mnu-active','mnu-noactive'));
 
   const currentLink = Array.from(routes).find(el => el.dataset.route === route);
-  currentLink.classList.replace('button-menu','button-menu-active');
+  currentLink.classList.replace('mnu-noactive','mnu-active');
 }
 
 export const navigateTo = (route,status,activitie) => {

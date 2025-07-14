@@ -2,7 +2,7 @@ export const view = () => {
   return `
     <!-- items derechos fijos --> 
     <div class="navbar_right_principal">
-        <button class="button-menu curso animation-dissolve">
+        <button class="button-menu mnu-noactive curso animation-dissolve">
             <img class="icon_lg" src="./assets/icon/abacus.svg"> 
             <h4>Matemática</h4>
         </button>

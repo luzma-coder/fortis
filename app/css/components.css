@@ -251,9 +251,7 @@ p{
 
 /*Menu button ----------------------------------------------*/
 .button-menu{
-  background-color: var(--color-neutral-900);
   color: var(--color-neutral-50);
-  border:var(--border-line-300) solid var(--color-neutral-900);
   border-radius: var(--border-radius-sm);
   padding: var(--size-xxs) var(--size-lg);
   cursor: pointer;
@@ -262,18 +260,13 @@ p{
   align-items: center;
   gap: 10px;
 }
-
-.button-menu-active{
+.mnu-noactive{
+  background-color: var(--color-neutral-900);
+  border:var(--border-line-300) solid var(--color-neutral-900);
+}
+.mnu-active{
   background-color: var(--color-neutral-800);
-  color: var(--color-neutral-50);
   border:var(--border-line-300) solid var(--color-primary-500);
-  border-radius: var(--border-radius-sm);
-  padding: var(--size-xxs) var(--size-lg);
-  cursor: pointer;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .button-menu:hover{
