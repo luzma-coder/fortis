@@ -1,4 +1,4 @@
-import { readAll } from '../modules/storageService';
+import { readAll } from '../modules/storageService.js';
 
 export function view() {
   const arrDataCourses = readAll('arrCourses');

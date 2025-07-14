@@ -1,4 +1,4 @@
-import { getUser } from '../modules/storageService';
+import { getUser } from '../modules/storageService.js';
 
 export const view = () => {
   const userData = getUser();
