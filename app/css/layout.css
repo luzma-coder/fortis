@@ -33,11 +33,11 @@ nav a {
 }
 
 .nav-icon[data-route="learn"]::before {
-  background-image: url('/assets/icon/home.svg');
+  background-image: url('../assets/icon/home.svg');
 }
 
 .nav-icon[data-route="profile"]::before {
-  background-image: url('/assets/icon/user.svg');
+  background-image: url('../assets/icon/user.svg');
 }
 
 /* .navbar_left:nth-child(1){
@@ -249,13 +249,13 @@ nav a {
   z-index: 1;
 }
 .oval-btn.paw {
-  background-image: url('/assets/icon/patita.svg');
+  background-image: url('../assets/icon/patita.svg');
 }
 .oval-btn.play {
-  background-image: url('/assets/icon/pay.svg');
+  background-image: url('../assets/icon/pay.svg');
 }
 .oval-btn.trophy {
-  background-image: url('/assets/icon/trofeo.svg');
+  background-image: url('../assets/icon/trofeo.svg');
 }
 .game-btn {
   width: 60px;
@@ -269,16 +269,16 @@ nav a {
   cursor: pointer;
 }
 .game-btn.blue {
-  background-image: url('/assets/icon/game-blue.svg');
+  background-image: url('../assets/icon/game-blue.svg');
 }
 .game-btn.pink {
-  background-image: url('/assets/icon/game-pink.svg');
+  background-image: url('../assets/icon/game-pink.svg');
 }
 .game-btn.yellow {
-  background-image: url('/assets/icon/game-yellow.svg');
+  background-image: url('../assets/icon/game-yellow.svg');
 }
 .game-btn.locked {
-  background-image: url('/assets/icon/game-gray.svg');
+  background-image: url('../assets/icon/game-gray.svg');
   cursor: auto;
 }
 .oval-btn.blue {
@@ -324,7 +324,7 @@ nav a {
   width: 28px;
   border: none;
   margin: var(--size-xs);
-  background-image: url('/assets/icon/close.svg');
+  background-image: url('../assets/icon/close.svg');
   background-size: var(--size-md);
   background-position: center;
   background-repeat: no-repeat;
@@ -446,11 +446,11 @@ footer.right {
 }
 
 .circle-btn.right{
-  background-image: url('/assets/icon/correct.svg');
+  background-image: url('../assets/icon/correct.svg');
 }
 
 .circle-btn.wrong{
-  background-image: url('/assets/icon/incorrect.svg');
+  background-image: url('../assets/icon/incorrect.svg');
 }
 
 .feedback.correct {
@@ -528,11 +528,11 @@ input:focus {
 }
 
 .toggle-password.hide{
-  background-image: url('/assets/icon/eye-hide-on.svg');
+  background-image: url('../assets/icon/eye-hide-on.svg');
 }
 
 .toggle-password.show {
-  background-image: url('/assets/icon/eye-hide-off.svg');
+  background-image: url('../assets/icon/eye-hide-off.svg');
 }
 
 .toggle-password:hover {
@@ -639,7 +639,7 @@ input:focus {
   top: 10px;
   right: 10px;
   border: none;
-  background-image: url('/assets/icon/btn-check.svg');
+  background-image: url('../assets/icon/btn-check.svg');
   background-color: unset;
   background-position: center;
   background-repeat: no-repeat;
@@ -655,7 +655,7 @@ input:focus {
 .img-man{
   margin-top: 3em;
   height: 200px;
-  background-image: url('/assets/img//man-graduated.svg');
+  background-image: url('../assets/img//man-graduated.svg');
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
