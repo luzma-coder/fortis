@@ -10,8 +10,8 @@ export const view = () => {
     <div class="card_unidad ${dataUnity.color}">
         <div class="card_unidadContent">
             <div class="card_numberUnidad flex-r">
-                <img class="icon_sm" src="./assets/icon/left.svg"> 
-                <h4 class="title_unidad">${dataUnity.nombre}</h4>
+                <img class="icon_sm" src="./assets/icon/left.svg" alt=""> 
+                <span class="title_unidad no-link">${dataUnity.nombre}</span>
             </div>
             <h3 class="subtitle">Tema: ${dataUnity.tema}</h3>
         </div>

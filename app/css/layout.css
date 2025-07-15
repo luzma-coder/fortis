@@ -38,7 +38,10 @@ nav a {
 .nav-icon[data-route="profile"]::before {
   background-image: url('../assets/icon/user.svg');
 }
-
+.no-link{
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-sm);  
+}
 /* .navbar_left:nth-child(1){
     flex-grow: 1;
     max-width: 290px;

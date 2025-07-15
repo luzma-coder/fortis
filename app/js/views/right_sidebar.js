@@ -3,19 +3,19 @@ export const view = () => {
     <!-- items derechos fijos --> 
     <div class="navbar_right_principal">
         <button class="button-menu mnu-noactive curso animation-dissolve">
-            <img class="icon_lg" src="./assets/icon/abacus.svg"> 
+            <img class="icon_lg" src="./assets/icon/abacus.svg" alt=""> 
             <h4>Matemática</h4>
         </button>
         <!-- opciones menu de cursos --> 
         <div id="optionsMenu" class="card_cursos">
             <div id="addCourseCard" class="card_option animation-dissolve" onclick="navigateTo('courses')">
-                <img class="icon_lg" src="./assets/icon/plus.svg"> 
+                <img class="icon_lg" src="./assets/icon/plus.svg" alt=""> 
                 <h4 class="text" >Agrega un nuevo curso</h4>
             </div>
         </div>
 
         <div class="info_heart">
-            <img class="icon_lg" src="./assets/icon/heart.svg">
+            <img class="icon_lg" src="./assets/icon/heart.svg" alt="Cantidad de Vidas">
             <p class="text-ng">09</p>
         </div>
     </div>
@@ -33,7 +33,7 @@ export const view = () => {
         </section>
         <div class="card align-center">
             <div class="flex-r">
-                <img class="icon_lg" src="./assets/icon/heart-2.svg">
+                <img class="icon_lg" src="./assets/icon/heart-2.svg" alt="">
             <h4 class="title">Actualizar a pro</h4>
             </div>
             <button class="button-primary-disabled w210 text-ng animation-dissolve">Actualizar hoy</button>
@@ -41,7 +41,7 @@ export const view = () => {
         <div id="cardChallenges" class="card align-center">
             <h4 class="title">Desafios del día</h4>
             <div class="card_flash">
-                <img class="icon_lg" src="./assets/icon/flash.svg">
+                <img class="icon_lg" src="./assets/icon/flash.svg" alt="">
                 <div class="bar">
                     <p class="text-ng">Ganar 20 exp</p>
                     <div class="exp">
@@ -50,7 +50,7 @@ export const view = () => {
                 </div>
             </div>
             <div class="card_flash">
-                <img class="icon_lg" src="./assets/icon/flash.svg">
+                <img class="icon_lg" src="./assets/icon/flash.svg" alt="">
                 <div class="bar">
                     <p class="text-ng">Ganar 50 exp</p>
                     <div class="exp">

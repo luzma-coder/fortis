@@ -5,7 +5,7 @@ export const view = () => {
       <h2 class="blue a-center">¡Completaste toda la unidad!</h2>
       <p class="yellow a-center">Exp total</p>
       <div class="card-base bradius-sm border-yellow p1040 yellow icon-flash flex">
-        <img class="icon_lg" src="./assets/icon/flash.svg">
+        <img class="icon_lg" src="./assets/icon/flash.svg" alt="">
         20+
       </div>
     </section>

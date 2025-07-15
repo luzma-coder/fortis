@@ -7,8 +7,8 @@ export const createNav = (navigate) => {
       Aprender
     </a>
     <button class="button-menu mnu-noactive animation-dissolve">
-        <img class="icon_lg" src="./assets/icon/ranking.svg"> 
-        <h4>Ranking</h4>
+        <img class="icon_lg" src="./assets/icon/ranking.svg" alt=""> 
+        <span class="no-link">Ranking</span>
     </button>
     <a href="#" data-route="profile" class="button-menu mnu-noactive animation-dissolve nav-icon">
       Perfil

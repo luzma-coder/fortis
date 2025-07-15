@@ -5,7 +5,7 @@ export const view = () => {
       <div class="card-base bradius-30 border-yellow w510 p20">
         ${[20,50].map(numExp => `
           <div class="card_flash pb4">  
-            <img class="icon_lg" src="./assets/icon/flash.svg">
+            <img class="icon_lg" src="./assets/icon/flash.svg" alt="">
             <div class="bar">
               <p class="text-ng">Ganar ${numExp} exp</p>
               <div class="exp">

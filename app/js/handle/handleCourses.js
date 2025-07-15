@@ -21,7 +21,7 @@ const renderActiveCoursesList = () => {
           .filter(course => course.activo)
           .map(course => `
             <div class="card_option animation-dissolve" data-course="${course.id}">
-              <img class="icon_lg" src="./assets/icon/${course.icono}"> 
+              <img class="icon_lg" src="./assets/icon/${course.icono}" alt=""> 
               <h4 class="title">${course.nombre}</h4>
             </div>`)
           .join('');
